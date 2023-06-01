@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+.rainbow {
+  background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+  width: 100%;
+  height: 100vh;
+}
+
 .wrapper {
   display: flex;
   align-items: center;
@@ -28,7 +34,6 @@
   background-color: #94bcb8;
   border-radius: 20px;
 }
-
 .button-check:hover {
   background-color: #00ccb8;
 }
@@ -44,5 +49,4 @@
   color: #2011c7;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
